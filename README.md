@@ -1,3 +1,5 @@
+Simple Password Generator:
+
 This is a simple password generator built using HTML, CSS, and JavaScript. The application allows users to generate strong, random passwords with customizable length.
 
 Features
