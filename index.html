@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="icon" type="image/x-icon" href="passFavi.png">
+  <link rel="stylesheet" href="passtyle.css">
+</head>
+<body>
+  <div class="container">
+    <img class="password-icon" src="passGener.png" alt="">
+    <h2>Password Generator</h2>
+    <label class="passLength-label" for="passLength">&#x21d2; Choose your password length:</label>
+    <input class="passLength" type="number" id="passLength" value="8" min="8" max="14">
+    <button id="generate-btn" class="generate-btn">Click to generate</button>
+    <p class="displayPass">Your Password is:</p>
+    <p class="yourPassword" id="yourPassword"></p>
+  </div>
+  <script src="passcript.js"></script>
+</body>
+</html>
